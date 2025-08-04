@@ -44,7 +44,7 @@ public class Task1 {
                     System.out.println("Invalid operator");
                     continue;
             }
-            System.out.println(result);
+            System.out.println("The result is : "+ result);
             System.out.print("Do you want to calculate again? Type 'yes' or 'y' to continue: ");
             String answer = sc.next();
             if (!(answer.equals("yes") || answer.equals("y"))) {
@@ -52,6 +52,5 @@ public class Task1 {
                 System.out.println("Calculator closed.");
             }
         }
-
     }
 }
